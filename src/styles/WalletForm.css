@@ -68,12 +68,6 @@
   padding: 0.5rem 1rem;
 }
 
-/* style for button:hover */
-.form button:hover {
-  background-color: #7ED321;
-  color: white;
-}
-
 /* style for button:active */
 .form button:active {
   background-color: #00BCC9;
@@ -81,5 +75,12 @@
 
 /* style for button:focus */
 .form button:focus {
-  background-color: #00BCC9;
+  background-color: #A332B3;
+  color: white;
+}
+
+/* style for button:hover */
+.form button:hover {
+  background-color: #7ED321;
+  color: white;
 }

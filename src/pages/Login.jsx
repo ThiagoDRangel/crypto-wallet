@@ -45,7 +45,6 @@ class Login extends React.Component {
         <div className="login">
           <h1>Crypto <span>WALLET</span></h1>
           <label htmlFor="email">
-            Email:
             <input
               type="email"
               name="email"
@@ -56,7 +55,6 @@ class Login extends React.Component {
             />
           </label>
           <label htmlFor="password">
-            Senha:
             <input
               type="password"
               name="password"
