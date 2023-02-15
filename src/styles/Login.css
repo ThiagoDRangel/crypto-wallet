@@ -1,6 +1,6 @@
 .login-form {
   align-items: center;
-  background-color: whitesmoke;
+  background-color: rgb(123, 239, 235);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -10,7 +10,7 @@
 
 .login {
   align-items: center;
-  background-color: #A332B3;
+  background-color: #00BCC9;
   border-radius: 2rem;
   box-shadow: 0 0 1rem 0 rgb(60, 2, 68, 1);
   display: flex;
@@ -28,11 +28,7 @@
 }
 
 .login span {
-  color: #F8991D;
-}
-
-.login span:hover {
-  color: #DC494A;
+  color: rgb(123, 239, 235);;
 }
 
 .login label {
@@ -46,7 +42,7 @@
   background-color: white;
   border: none;
   border-radius: 0.5rem;
-  color: #A332B3;
+  color: gray;
   font-size: 1rem;
   height: 3rem;
   margin-bottom: 0.5rem;
@@ -81,7 +77,7 @@
 }
 
 .login button:disabled {
-  background-color: #DC494A;
-  color: gray;
+  background-color: gray;
+  color: white;
   cursor: not-allowed;
 }
