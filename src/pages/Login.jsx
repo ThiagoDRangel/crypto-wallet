@@ -41,9 +41,9 @@ class Login extends React.Component {
   render() {
     const { email, password, isDisabled } = this.state;
     return (
-      <div className="container">
-        <div className="containerLogin">
-          <h1>Login</h1>
+      <div className="login-form">
+        <div className="login">
+          <h1>Crypto <span>WALLET</span></h1>
           <label htmlFor="email">
             Email:
             <input
@@ -52,7 +52,7 @@ class Login extends React.Component {
               id="email"
               value={ email }
               onChange={ this.handleChange }
-              data-testid="email-input"
+              placeholder="Digite o seu melhor e-mail"
             />
           </label>
           <label htmlFor="password">
@@ -63,7 +63,7 @@ class Login extends React.Component {
               id="password"
               value={ password }
               onChange={ this.handleChange }
-              data-testid="password-input"
+              placeholder="Digite a sua senha"
             />
           </label>
           <button

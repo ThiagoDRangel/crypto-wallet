@@ -1,5 +1,6 @@
-.container {
+.wallet {
   align-items: center;
+  background-color: rgb(123, 239, 235);
   border-radius: 20px;
   display: flex;
   flex-direction: column;

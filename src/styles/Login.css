@@ -1,80 +1,87 @@
-.container {
+.login-form {
   align-items: center;
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
-.containerLogin {
+.login {
   align-items: center;
-  background-color: #577eff;
+  background-color: #A332B3;
   border-radius: 2rem;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1rem 0 rgb(60, 2, 68, 1);
   display: flex;
   flex-direction: column;
-  height: 60%;
+  height: 45%;
   justify-content: center;
-  width: 700px;
+  width: 35%;
 }
 
-.containerLogin h1 {
+.login h1 {
   color: white;
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 1rem;
 }
 
-.containerLogin label {
-  color: white;
-  font-size: 2rem;
-  font-weight: 400px;
-  margin-bottom: 0.5rem;
+.login span {
+  color: #F8991D;
 }
 
-.containerLogin input {
+.login span:hover {
+  color: #DC494A;
+}
+
+.login label {
+  color: white;
+  font-size: rem;
+  font-weight: 300px;
+  margin-bottom: 2%;
+}
+
+.login input {
   background-color: white;
   border: none;
   border-radius: 0.5rem;
-  color: #577eff;
-  font-size: 2rem;
-  height: 4rem;
-  margin-bottom: 1rem;
+  color: #A332B3;
+  font-size: 1rem;
+  height: 3rem;
+  margin-bottom: 0.5rem;
   outline: none;
   padding: 0 1rem;
-  width: 100%;
+  width: 90%;
 }
 
-.containerLogin button {
+.login button {
   background-color: white;
   border: none;
   border-radius: 0.5rem;
-  color: #577eff;
+  color: #A332B3;
   cursor: pointer;
   font-size: 2rem;
-  font-weight: 700;
-  height: 4rem;
+  height: 12%;
   margin-bottom: 1rem;
-  margin-top: 2rem;
-  width: 50%;
+  width: 30%;
 }
 
-.containerLogin button:hover {
+.login button:hover {
   background-color: whitesmoke;
 }
 
-.containerLogin button:active {
-  background-color: #e5e5e5;
+.login button:enabled {
+  background-color: #7ED321;
+  color: white;
 }
 
-.containerLogin button:focus {
+.login button:focus {
   outline: none;
 }
 
-.containerLogin button:disabled {
-  background-color: #e5e5e5;
-  color: white;
+.login button:disabled {
+  background-color: #DC494A;
+  color: gray;
   cursor: not-allowed;
 }

@@ -65,34 +65,32 @@ class WalletForm extends Component {
     const { currencies, editor } = this.props;
     const { value, description, currency, method, tag } = this.state;
     return (
-      <form className="containerForm">
+      <form className="form">
         <div>
           <label htmlFor="value">
-            Valor
             <input
               type="number"
               id="value"
-              data-testid="value-input"
               value={ value }
               onChange={ this.handleChange }
               name="value"
+              placeholder="Valor"
             />
           </label>
           <label htmlFor="description">
-            Descrição
             <input
               type="text"
               id="description"
-              data-testid="description-input"
               value={ description }
               onChange={ this.handleChange }
               name="description"
+              placeholder="Descrição"
             />
           </label>
         </div>
         <div>
           <label htmlFor="currency">
-            Moeda
+            Moeda:
             <select
               id="currency"
               data-testid="currency-input"
@@ -111,7 +109,7 @@ class WalletForm extends Component {
             </select>
           </label>
           <label htmlFor="method">
-            Método de pagamento
+            Pagamento:
             <select
               id="method"
               data-testid="method-input"
@@ -125,7 +123,7 @@ class WalletForm extends Component {
             </select>
           </label>
           <label htmlFor="tag">
-            Tag
+            Tag:
             <select
               id="tag"
               data-testid="tag-input"
