@@ -19,8 +19,9 @@
 }
 
 .table th {
-  background-color: #3cf5a8;
+  background-color: #e6def1;
   color: #577eff;
+  border-radius: 10px;
   font-size: 1.8rem;
   padding: 0.8rem;
   text-align: center;
