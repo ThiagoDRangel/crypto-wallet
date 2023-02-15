@@ -1,11 +1,11 @@
 .containerForm {
   align-items: center;
-  background-color: #577eff;
-  border-radius: 0.5rem;
+  background-color: #6830b1;
+  border-radius: 20px;
   color: white;
   display: flex;
   flex-direction: column;
-  height: 150px;
+  height: 300px;
   justify-content: space-around;
   margin-bottom: 2rem;
   padding: 0 2rem;
@@ -20,7 +20,7 @@
 .containerForm input {
   background-color: #e9e9ed;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 20px;
   color: #577eff;
   font-size: 2rem;
   margin-left: 1rem;
@@ -33,7 +33,7 @@
 /* style for select */
 .containerForm select {
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 10px;
   color: #577eff;
   font-size: 2rem;
   margin-left: 1rem;
