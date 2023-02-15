@@ -16,19 +16,19 @@ class Header extends Component {
   render() {
     const { email } = this.props;
     return (
-      <header className="containerHeader">
+      <header className="header-form">
         <div className="logo">
           <h1>
-            Trybe
+            Crypto
             <span>Wallet</span>
           </h1>
         </div>
-        <div className="">
-          <p data-testid="email-field">{email}</p>
-          <p data-testid="total-field">
-            {parseFloat(this.totalExpenses()).toFixed(2)}
+        <div className="infos">
+          <p className="first">{email}</p>
+          <p className="second">
+            {`R$ `}{parseFloat(this.totalExpenses()).toFixed(2).replace('.',',')}
           </p>
-          <p data-testid="header-currency-field">BRL</p>
+          <p className="three">BRL</p>
         </div>
       </header>
     );

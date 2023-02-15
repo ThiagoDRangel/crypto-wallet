@@ -1,13 +1,14 @@
 .table {
   border-collapse: collapse;
-  width: 90%;
+  width: 95%;
 }
 
 .table caption {
-  color: #577eff;
+  color: #14ab6c;;
   font-size: 3rem;
   font-weight: 700;
   padding: 0.5rem;
+  margin-bottom: 1%;
   text-align: center;
 }
 
@@ -19,12 +20,16 @@
 }
 
 .table th {
-  background-color: #e6def1;
-  color: #577eff;
-  border-radius: 10px;
-  font-size: 1.8rem;
+  background-color: #00BCC9;
+  color: white;
+  border-radius: 5%;
+  font-size: 1.7rem;
   padding: 0.8rem;
   text-align: center;
+}
+
+.table th:hover {
+  background-color: #7ED321;
 }
 
 .table tr:nth-child( even ) {
@@ -41,4 +46,14 @@
 
 .table tr:hover td {
   color: #577eff;
+}
+
+.edit-button:hover {
+  background-color: #7ED321;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #DC494A;
+  color: white;
 }

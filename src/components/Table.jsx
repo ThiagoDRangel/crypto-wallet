@@ -20,7 +20,7 @@ class Table extends Component {
     const { expenses } = this.props;
     return (
       <table className="table">
-        <caption>Despesas</caption>
+        <caption></caption>
         <thead>
           <tr>
             <th>Descrição</th>
@@ -56,6 +56,7 @@ class Table extends Component {
                   type="button"
                   data-testid="edit-btn"
                   onClick={ () => this.handleEdit(expense) }
+                  className="edit-button"
                 >
                   Editar
                 </button>
@@ -63,6 +64,7 @@ class Table extends Component {
                   type="button"
                   data-testid="delete-btn"
                   onClick={ () => this.handleDelete(expense.id) }
+                  className="delete-button"
                 >
                   Excluir
                 </button>

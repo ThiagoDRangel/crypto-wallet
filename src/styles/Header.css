@@ -1,32 +1,53 @@
-.containerHeader {
+.header-form {
   align-items: center;
-  background-color: #8f23cd;
-  border-radius: 20px;
+  background-color: #00BCC9;
+  border-radius: 15px;
   display: flex;
-  height: 10%;
   justify-content: space-between;
-  margin-bottom: 15%;
-  padding: 0 2rem;
-  width: 90%;
+  margin-bottom: 5%;
+  margin-top: 0.5%;
+  padding: 0 1rem;
+  width: 95%;
 }
 
 .logo h1 {
   color: white;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600px;
   margin: 0;
+}
+
+.logo h1:hover {
+  color: #F8991D;
 }
 
 .logo span {
   color: #3cf5a8;
   font-size: 3rem;
-  font-weight: 900;
   margin: 0;
 }
 
-.login {
+.infos {
   align-items: center;
   color: white;
   display: flex;
+  font-size: 25px;
+  flex-direction: column;
   gap: 1rem;
+
+}
+
+.first {
+  font-size: 80%;
+  margin-bottom: 0;
+}
+
+.second {
+  font-size: 80%;
+  margin: 2%;
+}
+
+.three {
+  font-size: 80%;
+  margin-top: 2%;
 }
