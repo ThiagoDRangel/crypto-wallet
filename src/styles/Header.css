@@ -1,0 +1,31 @@
+.containerHeader {
+  align-items: center;
+  background-color: #577eff;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.logo span {
+  color: #3cf5a8;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.login {
+  align-items: center;
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
