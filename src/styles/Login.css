@@ -1,0 +1,80 @@
+.container {
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.containerLogin {
+  align-items: center;
+  background-color: #577eff;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+  width: 700px;
+}
+
+.containerLogin h1 {
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.containerLogin label {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400px;
+  margin-bottom: 0.5rem;
+}
+
+.containerLogin input {
+  background-color: white;
+  border: none;
+  border-radius: 0.5rem;
+  color: #577eff;
+  font-size: 2rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.containerLogin button {
+  background-color: white;
+  border: none;
+  border-radius: 0.5rem;
+  color: #577eff;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 4rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.containerLogin button:hover {
+  background-color: whitesmoke;
+}
+
+.containerLogin button:active {
+  background-color: #e5e5e5;
+}
+
+.containerLogin button:focus {
+  outline: none;
+}
+
+.containerLogin button:disabled {
+  background-color: #e5e5e5;
+  color: white;
+  cursor: not-allowed;
+}

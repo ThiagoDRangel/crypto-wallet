@@ -1,0 +1,71 @@
+.containerForm {
+  align-items: center;
+  background-color: #577eff;
+  border-radius: 0.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  width: 1200px;
+}
+
+/* style for label */
+.containerForm label {
+  font-size: 2rem;
+}
+
+.containerForm input {
+  background-color: #e9e9ed;
+  border: none;
+  border-radius: 0.5rem;
+  color: #577eff;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  outline: none;
+  padding-left: 1rem;
+  width: 150px;
+}
+
+/* style for select */
+.containerForm select {
+  border: none;
+  border-radius: 0.5rem;
+  color: #577eff;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  outline: none;
+  text-align: center;
+  width: 200px;
+}
+
+/* style for button */
+.containerForm button {
+  background-color: #e9e9ed;
+  border: none;
+  border-radius: 0.5rem;
+  color: #577eff;
+  cursor: pointer;
+  font-size: 2rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+
+/* style for button:hover */
+.containerForm button:hover {
+  background-color: #d9d9ed;
+}
+
+/* style for button:active */
+.containerForm button:active {
+  background-color: #c9c9ed;
+}
+
+/* style for button:focus */
+.containerForm button:focus {
+  background-color: #b9b9ed;
+}
